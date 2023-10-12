@@ -1,0 +1,9 @@
+name: 'my first custom action'
+author: 'Pedro Garcia'
+description: 'Creates releases based on a keyword. Created while taking a course in GH Actions'
+runs:
+   using: 'docker'
+   image: 'Dockerfile'
+branding:
+   icon: 'gift'
+   color: 'blue'
